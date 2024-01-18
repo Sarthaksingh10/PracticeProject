@@ -118,8 +118,8 @@ li:hover {
 
 #smallpara {
     position: fixed;
-    top: 370px;
-    right: 1050px;
+    top: 385px;
+    right: 1030px;
     transform: skew(-45deg, 5deg);
     font-style: poppins;
     font-size: 15px;
