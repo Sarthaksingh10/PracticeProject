@@ -14,9 +14,7 @@ body::-webkit-scrollbar {
     border-radius: 5px;
     font-size: 20px;
     padding: 3px;
-}
-
-:hover {
+}:hover {
     cursor: pointer;
 }
 
@@ -1973,7 +1971,7 @@ li:hover {
 
     #smallpara {
         position: relative;
-        top: 340px;
+        top: 358px;
         right: 520px;
         font-size: 20px;
         transform: skew(-10deg, 14deg);
@@ -2338,38 +2336,67 @@ li:hover {
         top: 20%;
      }
 }
-@media (1050px<=width){
+@media (1050px<=width<=1300px){
+    #skew {
+        position: relative;
+        right: 423px;
+        bottom: 125px;
+        height: 600px;
+        width: 150vw;
+        transform: skew(10deg, -14deg);
+        background-color: #07112D;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    #navbar {
+        transform: skew(-10deg,14deg);
+       position: relative;
+       top: 90px;
+       left: 341px;
+    }
+
+    #BreakingNews {
+        width: max-content;
+        padding: 5px;
+        position: fixed;
+        top: 204px;
+        left: 44%;
+        transform: skew(-10deg, 14deg);
+    }
+
+    #bigpara {
+        font-size: 20px;
+        width: 300px;
+        transform: skew(-10deg, 14deg);
+        position: relative;
+        left: -151px;
+        top: 250px;
+    }
+
+    #smallpara {
+        position: relative;
+        top: 374px;
+        right: 460px;
+        font-size: 20px;
+        transform: skew(-10deg, 14deg);
+        width: 300px;
+    }
+
     #togglebtn{
         position: relative;
         left:50%;
         bottom: 820px;
-    }
-#navbar{
-    left: 935px;
-}
-#BreakingNews{
-    position: relative;
-    left: 23%;
-    top: 150px;
-}
-#bigpara{
-    position: relative;
-    top: 190px;
-    right: 35%;
-}
-#smallpara{
-    position: relative;
-    top: 381px;
-    right: 831px;
-}
+    } 
 #Extraskew{
     display: none;
 }
 #mainimg{
-    left: 25%;
+    left: 28%;
 }
 #playimg{
-    left: 2%;
+    left: 9%;
 }
 .displayimages{
     height: 130px;
