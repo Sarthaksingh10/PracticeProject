@@ -1,0 +1,2441 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#togglebtn {
+    position: relative;
+    left: 60%;
+    bottom: 850px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 3px;
+}
+
+:hover {
+    cursor: pointer;
+}
+
+#main-container {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+/* Making the header skew */
+#skew {
+    position: relative;
+    right: 350px;
+    bottom: 72px;
+    height: 600px;
+    width: 150vw;
+    transform: skew(45deg, -5deg);
+    background-color: #07112D;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/* Navbar css */
+#navbar {
+    position: relative;
+    top: 40px;
+    left: 150px;
+    height: 50px;
+    transform: skew(-45deg, 5deg);
+    display: flex;
+    list-style-type: none;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: max-content;
+}
+
+li {
+    padding: 50px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+#BreakingNews {
+    border-radius: 25px;
+    width: fit-content;
+    height: 40px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    position: fixed;
+    top: 140px;
+    left: 47%;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(5.5px);
+    border: 2px solid #1c254b42;
+    transform: skew(-45deg, 5deg);
+    display: flex;
+}
+
+#BreakingNews p {
+    font-size: 15px;
+    display: inline-block;
+    width: max-content;
+}
+
+#circle {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    box-shadow: 0px 2px 2px 2px red;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    top: 12px;
+}
+
+#bigpara {
+    text-align: center;
+    font-family: poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    height: inherit;
+    width: 550px;
+    transform: skew(-45deg, 5deg);
+    position: fixed;
+    top: 160px;
+    right: 39%;
+}
+
+#smallpara {
+    position: fixed;
+    top: 370px;
+    right: 1050px;
+    transform: skew(-45deg, 5deg);
+    font-style: poppins;
+    font-size: 15px;
+    width: 495px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#mainimg {
+    height: 250px;
+    width: 400px;
+    position: relative;
+    bottom: 200px;
+    left: 38%;
+    transform: skew(-15deg, -6deg);
+    border-radius: 10px;
+}
+
+#playimg {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 290px;
+    left: 22%;
+    opacity: 0.3;
+}
+
+#playimg:hover {
+    opacity: 1;
+}
+
+/* The header ends here */
+
+/* The design at the back of image */
+#Extraskew {
+    height: 40px;
+    width: 700px;
+    transform: skew(-15deg, -2deg);
+    background-color: blue;
+    position: relative;
+    bottom: 60px;
+    left: 350px;
+    justify-content: center;
+}
+
+/* The small images start here */
+.imagebox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
+
+}
+
+.displayimages {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* Css of the section with paragraph and button and designs */
+#skewsecond {
+    height: 400px;
+    width: 150vw;
+    background-color: #DDE4FF;
+    transform: skew(30deg, -7deg);
+    position: relative;
+    right: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#skewsecondPara {
+    width: 800px;
+    transform: skew(-30deg, 6deg);
+    font-size: 15px;
+    position: relative;
+    top: 50px;
+    right: 15%;
+    font-family: poppins;
+}
+
+#skewsecondparabtn {
+    width: max-content;
+    font-family: poppins;
+    position: relative;
+    top: 15%;
+    left: 5%;
+    font-size: 25px;
+    padding: 15px 30px 15px 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+#skewsecondparabtn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 4px 2px blue;
+}
+
+.displayblock {
+    display: block;
+}
+
+#rightskew {
+    /* SkewDesign */
+    height: 40px;
+    width: 200px;
+    transform: skew(-5deg, -8deg);
+    background-color: grey;
+    position: relative;
+    left: 90%;
+    top: .5%;
+
+}
+
+#leftskewtop {
+    /* SkewDesign */
+    height: 40px;
+    width: 200px;
+    transform: skew(-30deg, -8deg);
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    right: 9%;
+    top: 14.7%;
+}
+
+#leftskewbetween {
+    /* SkewDesign */
+    height: 40px;
+    width: 250px;
+    transform: skew(-35deg, -8deg);
+    background-color: #07112D;
+    position: relative;
+    right: 5%;
+    top: 12.6%;
+}
+
+#leftskewbottom {
+    /* SkewDesign */
+    height: 40px;
+    width: 250px;
+    transform: skew(-45deg, -.6deg);
+    background-color: gray;
+    position: relative;
+    right: 20%;
+    top: .2%;
+}
+
+#rightskewdown {
+    /* SkewDesign */
+    height: 40px;
+    width: 250px;
+    display: block;
+    transform: skew(-30deg, -6deg);
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    left: 90%;
+    bottom: 7%;
+}
+
+#leftskewdowntop {
+    /* SkewDesign */
+    height: 40px;
+    width: 250px;
+    display: block;
+    transform: skew(-30deg, -6deg);
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    right: 5%;
+    top: 10%;
+}
+
+#leftskewdownbottom {
+    /* SkewDesign */
+    height: 40px;
+    width: 250px;
+    display: block;
+    transform: skew(-30deg, -6deg);
+    background-color: gray;
+    position: relative;
+    right: 10%;
+    top: 10.6%;
+}
+
+/* Secondskew CSS starts from here */
+#growthcharts {
+    font-size: 25px;
+    font-family: poppins;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    left: 35%;
+    top: 10%;
+}
+
+#growthchartimg {
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+#growthcharts p {
+    font-size: 15px;
+    width: 950px;
+    text-align: center;
+    position: relative;
+    right: 45%;
+    top: 10%;
+}
+
+#growthchartsbtn {
+    width: 600px;
+    font-family: poppins;
+    font-size: 25px;
+    padding: 15px 5px 15px 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    right: 20%;
+}
+
+#growthchartsbtn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 4px 2px blue;
+}
+
+/* CSS for the skew showing results */
+#skewthird {
+    height: 700px;
+    width: 150vw;
+    background-color: #DDE4FF;
+    transform: skew(30deg, -7deg);
+    position: relative;
+    right: 200px;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.againblock {
+    display: block;
+}
+
+#rightskewAgain {
+    /* SkewDesign */
+    height: 40px;
+    width: 250px;
+    transform: skew(-5deg, -7deg);
+    background-color: grey;
+    position: relative;
+    left: 85%;
+    top: 30%;
+}
+
+#leftskewtopAgain {
+    /* SkewDesign */
+    height: 40px;
+    width: 200px;
+    transform: skew(-20deg, -7deg);
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    right: 9%;
+    top: 43%;
+}
+
+#leftskewbetweenAgain {
+    /* SkewDesign */
+    height: 40px;
+    width: 250px;
+    transform: skew(-20deg, -7deg);
+    background-color: #07112D;
+    position: relative;
+    right: 3%;
+    top: 40.5%;
+}
+
+#leftskewbottomAgain {
+    /* SkewDesign */
+    height: 40px;
+    width: 250px;
+    transform: skew(-40deg, -.2deg);
+    background-color: gray;
+    position: relative;
+    left: 12%;
+    bottom: 5.2%;
+}
+
+#rightskewdownAgain {
+    /* SkewDesign */
+    height: 40px;
+    width: 250px;
+    display: block;
+    transform: skew(-30deg, -6deg);
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    left: 90%;
+    top: 24%;
+}
+
+#leftskewdowntopAgain {
+    /* SkewDesign */
+    height: 40px;
+    width: 250px;
+    display: block;
+    transform: skew(-30deg, -6deg);
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    right: 5%;
+    top: 41.5%;
+}
+
+#leftskewdownbottomAgain {
+    /* SkewDesign */
+    height: 40px;
+    width: 250px;
+    display: block;
+    transform: skew(-30deg, -6deg);
+    background-color: gray;
+    position: relative;
+    right: 10%;
+    top: 42%;
+}
+
+#skewthird h2 {
+    font-family: poppins;
+    transform: skew(-30deg, 7deg);
+    position: relative;
+    left: 40%;
+    top: 10%;
+}
+
+/* Setting of the images in the third skew */
+.growthchartimg {
+    height: 240px;
+    width: 600px;
+    transform: skew(-30deg, 7deg);
+    margin: 10px;
+}
+
+#growthchartimgtop {
+    position: relative;
+    left: 26%;
+    bottom: 7%;
+}
+
+#growthchartimgbottom {
+    position: relative;
+    left: 19.4%;
+    bottom: 7%;
+}
+
+#lastpart {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+}
+
+#headinglastpart {
+    font-size: 35px;
+    width: 700px;
+    text-align: center;
+    position: relative;
+    left: 20%;
+}
+
+.imagesize {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+#image10 {
+    position: relative;
+    right: 28%;
+}
+
+#image11 {
+    position: relative;
+    left: 20%;
+    top: 0;
+}
+
+#image12 {
+    position: relative;
+    right: 10%;
+    top: 0;
+}
+
+#image13 {
+    position: relative;
+    left: 6%;
+}
+
+#image14 {
+    position: relative;
+    left: 5%;
+}
+
+#imagealign {
+    display: flex;
+    position: relative;
+
+    right: -7%;
+}
+
+#imagealigndown {
+    display: flex;
+    position: relative;
+    left: 20%;
+}
+
+#lastpartpara {
+    display: block;
+    width: 900px;
+    text-align: center;
+    font-family: poppins;
+    position: relative;
+    left: 10%;
+}
+
+#lastpartparabtn {
+    width: 600px;
+    font-family: poppins;
+    font-size: 25px;
+    padding: 15px 5px 15px 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+#lastpartparabtn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 4px 2px blue;
+}
+
+#footerpart {
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid yellow;
+    position: relative;
+    top: 65%;
+    color: white;
+    background-color: #07112D;
+}
+
+#footerheading {
+    margin-top: 50px;
+    text-align: center;
+    font-family: poppins;
+    width: 450px;
+}
+
+#footerpartbtn {
+    width: 400px;
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 15px;
+    background-color: skyblue;
+    color: white;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+#footerpartbtn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 4px 2px skyblue;
+}
+
+#logopart {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 10%;
+}
+
+#logopart h4 {
+    font-size: 30px;
+    float: left;
+    position: relative;
+    right: 80%;
+    top: 50px;
+}
+
+#logopara {
+    font-family: poppins;
+    width: 300px;
+    position: relative;
+    right: 80%;
+    top: 20px;
+}
+
+#aboutus {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 15%;
+    bottom: 5%;
+}
+
+#aboutus h4 {
+    font-family: poppins;
+    font-size: 25px;
+}
+
+#aboutus a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+#aboutus a:hover {
+    text-decoration: underline;
+}
+
+#Help {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 75%;
+    bottom: 25%;
+}
+
+#Help h4 {
+    font-family: poppins;
+    font-size: 25px;
+}
+
+#Help a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+#Help a:hover {
+    text-decoration: underline;
+}
+
+.bgimage {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+#instagramimg {
+    position: relative;
+    left: 149%;
+    top: 8%;
+}
+
+#Googleimg {
+    position: relative;
+    right: 40%;
+    top: 10%;
+}
+
+#wikkipimg {
+    position: relative;
+    top: 20%;
+    right: 99%;
+}
+
+#adwordsimg {
+    position: relative;
+    top: 20%;
+    left: 99%;
+}
+
+#shopifyimg {
+    position: relative;
+    top: 25%;
+    right: 40%;
+}
+
+#Followus {
+    position: relative;
+    left: 130%;
+    bottom: 45%;
+}
+
+#Followus h4 {
+    font-size: 30px;
+}
+
+.followimg {
+    height: 20px;
+    width: 20px;
+    border-radius: 40%;
+    padding-right: 50px;
+}
+
+#copyright hr {
+    border: 1px solid #3639411f;
+}
+
+#copyright p {
+    margin-left: 20%;
+}
+
+/* Media queries */
+@media (300px<=width<450px) {
+
+    #skew {
+        position: relative;
+        right: 130px;
+        bottom: 72px;
+        height: 550px;
+        width: 150vw;
+        transform: skew(10deg, -5deg);
+        background-color: #07112D;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #BreakingNews {
+        width: max-content;
+        padding: 5px;
+        position: fixed;
+        top: 95px;
+        left: 34%;
+        transform: skew(-10deg, 5deg);
+    }
+
+    #bigpara {
+        font-size: 20px;
+        width: 300px;
+        transform: skew(-10deg, 5deg);
+        position: relative;
+        left: 60%;
+    }
+
+    #togglebtn {
+        /*  Need to be change later */
+        display: none;
+    }
+
+    #smallpara {
+        position: relative;
+        top: 300px;
+        right: 140px;
+        font-size: 20px;
+        transform: skew(-10deg, 5deg);
+        width: 300px;
+    }
+
+    #Extraskew {
+        position: relative;
+        left: 7%;
+        bottom: 87px;
+        transform: skew(10deg, -5deg);
+        width: 300px;
+    }
+
+    #mainimg {
+        height: 150px;
+        width: 250px;
+        position: relative;
+        left: 15%;
+    }
+
+    #playimg {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        left: -25%;
+        bottom: 250px;
+    }
+
+    #imageboxcombine {
+        display: flex;
+    }
+
+    .imagebox {
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+    }
+
+    #skewsecond {
+        position: relative;
+        right: 50px;
+        transform: skew(10deg, -5deg);
+    }
+
+    #skewsecondPara {
+        width: 300px;
+        font-size: 12px;
+        text-align: center;
+        transform: skew(-10deg, 5deg);
+        position: relative;
+        right: 30%;
+    }
+
+    #skewsecondparabtn {
+        font-size: 10px;
+        width: max-content;
+        position: relative;
+        left: -5%;
+        top: 5%;
+    }
+
+    #rightskew {
+        height: 20px;
+        width: 100px;
+        position: relative;
+        transform: skew(10deg, -5deg);
+        left: 85%;
+        top: 1%;
+    }
+
+    #leftskewtop {
+        display: none;
+    }
+
+    #leftskewbetween {
+        height: 20px;
+        position: relative;
+        right: 48%;
+        top: 4%;
+        transform: skew(-35deg, -6deg);
+    }
+
+    #leftskewbottom {
+        height: 20px;
+        position: relative;
+        right: 25%;
+    }
+
+    #rightskewdown {
+        height: 20px;
+        position: relative;
+        bottom: 3%;
+    }
+
+    #leftskewdowntop {
+        height: 20px;
+        position: relative;
+        right: 45%;
+        top: 1%;
+    }
+
+    #leftskewdownbottom {
+        height: 20px;
+        position: relative;
+        right: 55%;
+        top: 1.3%;
+    }
+
+    #growthcharts {
+        width: 375px;
+        font-size: 32px;
+        position: relative;
+        left: 1%;
+        top: 10%;
+    }
+
+    #growthchartimg {
+        height: 300px;
+        width: 250px;
+    }
+
+    #growthcharts p {
+        width: 300px;
+        font-size: 10px;
+        position: relative;
+        right: -10%;
+    }
+
+    #growthchartsbtn {
+        width: 330px;
+        font-size: 15px;
+        position: relative;
+        right: 2%;
+    }
+
+    #skewthird {
+        position: relative;
+        right: 25px;
+        transform: skew(4deg, -7deg);
+    }
+
+    #rightskewAgain {
+        height: 20px;
+    }
+
+    #leftskewtopAgain {
+        display: none;
+    }
+
+    #leftskewbetweenAgain {
+        height: 20px;
+        position: relative;
+        top: 36%;
+        right: 40%;
+    }
+
+    #leftskewbottomAgain {
+        height: 20px;
+        position: relative;
+        left: -28%;
+        bottom: 13%;
+    }
+
+    #skewthird h2 {
+        position: relative;
+        left: 24%;
+        top: -11%;
+        transform: skew(-1deg, 6.4deg)
+    }
+
+    .growthchartimg {
+        border-radius: 30px;
+        height: 190px;
+        width: 350px;
+        transform: skew(-4deg, 6.4deg);
+    }
+
+    #growthchartimgtop {
+        position: relative;
+        left: 8%;
+    }
+
+    #growthchartimgbottom {
+        position: relative;
+        left: 5%;
+    }
+
+    #rightskewdownAgain {
+        height: 20px;
+        position: relative;
+        top: 26.6%;
+    }
+
+    #leftskewdowntopAgain {
+        height: 20px;
+        position: relative;
+        top: 32.5%;
+        right: 45%;
+    }
+
+    #leftskewdownbottomAgain {
+        height: 20px;
+        position: relative;
+        top: 32.9%;
+        right: 55%;
+    }
+
+    #headinglastpart {
+        font-size: 24px;
+        width: 370px;
+        position: relative;
+        left: 10%;
+    }
+
+    .imagesize {
+        height: 150px;
+        width: 150px;
+    }
+
+    #imagealign {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #imagealigndown {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: -11px;
+        left: 30px;
+    }
+
+    #image9 {
+        position: relative;
+        left: 8%;
+    }
+
+    #image10 {
+        position: relative;
+        left: 160px;
+        bottom: 150px;
+    }
+
+    #image11 {
+        position: relative;
+        left: -32%;
+        top: 148px;
+    }
+
+    #image12 {
+        position: relative;
+        right: -5%;
+    }
+
+    #lastpartpara {
+        font-size: 14px;
+        width: 250px;
+        position: relative;
+        top: 5%;
+        left: 75px;
+    }
+
+    #lastpartparabtn {
+        width: max-content;
+        font-size: 15px;
+        position: relative;
+        right: 15%;
+    }
+
+    #footerpart {
+        width: 500px;
+        font-size: 12px;
+    }
+
+    #footerheading {
+        width: 250px;
+        position: relative;
+        font-size: 23px;
+        left: -3%;
+        margin-top: 10px;
+    }
+
+    #footerpartbtn {
+        font-size: 15px;
+        width: 200px;
+        margin-right: 30px;
+        position: relative;
+        right: 5%;
+    }
+
+    #logopart {
+        position: relative;
+        top: 6%;
+        left: 200px;
+    }
+
+    #aboutus {
+        position: relative;
+        top: 10%;
+        left: -15%;
+    }
+
+    #Help {
+        position: relative;
+        left: 50%;
+        bottom: 85px;
+    }
+
+    #Followus {
+        position: relative;
+        left: -15%;
+        bottom: 5%;
+    }
+    .bgimage{
+        height: 25px;
+        width: 25px;
+        border-radius: 3px;
+    }
+     #instagramimg{
+        position: relative;
+        left: 95%;
+        top: 2%;
+     }
+     #Googleimg{
+        position: relative;
+        right: 30%;
+        top: 3%;
+     }
+     #wikkipimg{
+        position: relative;
+        right: 35%;
+        top: 10%;
+     }
+     #shopifyimg{
+        position: relative;
+        top: 20%;
+        right: 55%;
+     }
+     #adwordsimg{
+        position: relative;
+        left: 50%;
+        top: 15%;
+     }
+}
+@media (450px<=width<600px) {
+
+    #skew {
+        position: relative;
+        right: 130px;
+        bottom: 72px;
+        height: 550px;
+        width: 150vw;
+        transform: skew(10deg, -14deg);
+        background-color: #07112D;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #BreakingNews {
+        width: max-content;
+        padding: 5px;
+        position: fixed;
+        top: 100px;
+        left: 33%;
+        transform: skew(-10deg, 14deg);
+    }
+
+    #bigpara {
+        font-size: 20px;
+        width: 300px;
+        transform: skew(-10deg, 14deg);
+        position: relative;
+        left: 55%;
+    }
+
+    #togglebtn {
+        /*  Need to be change later */
+        display: none;
+    }
+
+    #smallpara {
+        position: relative;
+        top: 300px;
+        right: 150px;
+        font-size: 20px;
+        transform: skew(-10deg, 14deg);
+        width: 300px;
+    }
+
+    #Extraskew {
+       /*  position: relative;
+        left: 11%;
+        bottom: 73px;
+        transform: skew(10deg, -8deg);
+        width: 431px; */
+        display: none;
+    }
+
+    #mainimg {
+        height: 150px;
+        width: 250px;
+        position: relative;
+        left: 22%;
+        top: -150px;
+    }
+
+    #playimg {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        left: -12%;
+        bottom: 205px;
+    }
+
+    #imageboxcombine {
+        display: flex;
+    }
+   .displayimages{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   }
+    .imagebox {
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+    }
+
+    #skewsecond {
+        position: relative;
+        right: 50px;
+        transform: skew(10deg, -5deg);
+    }
+
+    #skewsecondPara {
+        width: 300px;
+        font-size: 12px;
+        text-align: center;
+        transform: skew(-10deg, 5deg);
+        position: relative;
+        right: 30%;
+    }
+
+    #skewsecondparabtn {
+        font-size: 10px;
+        width: max-content;
+        position: relative;
+        left: -5%;
+        top: 5%;
+    }
+
+    #rightskew {
+        height: 20px;
+        width: 100px;
+        position: relative;
+        transform: skew(10deg, -5deg);
+        left: 85%;
+        top: 1%;
+    }
+
+    #leftskewtop {
+        display: none;
+    }
+
+    #leftskewbetween {
+        height: 20px;
+        position: relative;
+        right: 35%;
+        top: 4.8%;
+        transform: skew(-35deg, -6deg);
+    }
+
+    #leftskewbottom {
+        height: 20px;
+        position: relative;
+        right: 30%;
+    }
+
+    #rightskewdown {
+        height: 20px;
+        position: relative;
+        bottom: 3%;
+    }
+
+    #leftskewdowntop {
+        height: 20px;
+        position: relative;
+        right: 40%;
+        top: 2%;
+    }
+
+    #leftskewdownbottom {
+        height: 20px;
+        position: relative;
+        right: 45%;
+        top: 2%;
+    }
+
+    #growthcharts {
+        width: 375px;
+        font-size: 32px;
+        position: relative;
+        left: 6%;
+        top: 10%;
+    }
+
+    #growthchartimg {
+        height: 300px;
+        width: 250px;
+    }
+
+    #growthcharts p {
+        width: 300px;
+        font-size: 10px;
+        position: relative;
+        right: -10%;
+    }
+
+    #growthchartsbtn {
+        width: 330px;
+        font-size: 15px;
+        position: relative;
+        right: -1%;
+    }
+
+    #skewthird {
+        position: relative;
+        right: 25px;
+        transform: skew(4deg, -7deg);
+    }
+
+    #rightskewAgain {
+        height: 20px;
+    }
+
+    #leftskewtopAgain {
+        display: none;
+    }
+
+    #leftskewbetweenAgain {
+        height: 20px;
+        position: relative;
+        top: 37%;
+        right: 40%;
+    }
+
+    #leftskewbottomAgain {
+        height: 20px;
+        position: relative;
+        left: -25%;
+        bottom: 13%;
+    }
+
+    #skewthird h2 {
+        position: relative;
+        left: 24%;
+        top: -11%;
+        transform: skew(-1deg, 6.4deg)
+    }
+
+    .growthchartimg {
+        border-radius: 30px;
+        height: 190px;
+        width: 350px;
+        transform: skew(-4deg, 6.4deg);
+    }
+
+    #growthchartimgtop {
+        position: relative;
+        left: 8%;
+    }
+
+    #growthchartimgbottom {
+        position: relative;
+        left: 5%;
+    }
+
+    #rightskewdownAgain {
+        height: 20px;
+        position: relative;
+        top: 26.6%;
+    }
+
+    #leftskewdowntopAgain {
+        height: 20px;
+        position: relative;
+        top: 33.5%;
+        right: 38%;
+    }
+
+    #leftskewdownbottomAgain {
+        height: 20px;
+        position: relative;
+        top: 33.9%;
+        right: 47%;
+    }
+
+    #headinglastpart {
+        font-size: 24px;
+        width: 370px;
+        position: relative;
+        left: 10%;
+    }
+
+    .imagesize {
+        height: 150px;
+        width: 150px;
+    }
+
+    #imagealign {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #imagealigndown {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: -11px;
+        left: 30px;
+    }
+
+    #image9 {
+        position: relative;
+        left: 8%;
+    }
+
+    #image10 {
+        position: relative;
+        right: 126px;
+        top: 5px;
+    }
+
+    #image11 {
+        position: relative;
+        left: 7%;
+        top: 148px;
+    }
+
+    #image12 {
+        position: relative;
+        right: -8%;
+    }
+
+    #lastpartpara {
+        font-size: 14px;
+        width: 250px;
+        position: relative;
+        top: 5%;
+        left: 93px;
+    }
+
+    #lastpartparabtn {
+        width: max-content;
+        font-size: 15px;
+        position: relative;
+        right: 9%;
+    }
+
+    #footerpart {
+        width: 600px;
+        font-size: 12px;
+    }
+
+    #footerheading {
+        width: 300px;
+        position: relative;
+        font-size: 25px;
+        left: -3%;
+        margin-top: 10px;
+    }
+
+    #footerpartbtn {
+        font-size: 18px;
+        width: 230px;
+        margin-right: 30px;
+        position: relative;
+        right: 5%;
+    }
+
+    #logopart {
+        position: relative;
+        top: 6%;
+        left: 200px;
+    }
+
+    #aboutus {
+        position: relative;
+        top: 10%;
+        left: -15%;
+    }
+
+    #Help {
+        position: relative;
+        left: 50%;
+        bottom: 85px;
+    }
+
+    #Followus {
+        position: relative;
+        left: -15%;
+        bottom: 5%;
+    }
+    .bgimage{
+        height: 25px;
+        width: 25px;
+        border-radius: 3px;
+    }
+     #instagramimg{
+        position: relative;
+        left: 104%;
+        top: 3%;
+     }
+     #Googleimg{
+        position: relative;
+        right: 30%;
+        top: 3%;
+     }
+     #wikkipimg{
+        position: relative;
+        right: 35%;
+        top: 10%;
+     }
+     #shopifyimg{
+        position: relative;
+        top: 20%;
+        right: 55%;
+     }
+     #adwordsimg{
+        position: relative;
+        left: 65%;
+        top: 20%;
+     }
+}
+@media (600px<=width<900px) {
+
+    #skew {
+        position: relative;
+        right: 130px;
+        bottom: 112px;
+        height: 550px;
+        width: 150vw;
+        transform: skew(10deg, -14deg);
+        background-color: #07112D;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    #navbar {
+        transform: skew(-10deg,14deg);
+       position: relative;
+       top: 55px;
+       left: 300px;
+    }
+
+    #BreakingNews {
+        width: max-content;
+        padding: 5px;
+        position: fixed;
+        top: 155px;
+        left: 31%;
+        transform: skew(-10deg, 14deg);
+    }
+
+    #bigpara {
+        font-size: 20px;
+        width: 300px;
+        transform: skew(-10deg, 14deg);
+        position: relative;
+        left: -80%;
+        top: 210px;
+    }
+
+    #togglebtn {
+        /*  Need to be change later */
+        display: none;
+    }
+
+    #smallpara {
+        position: relative;
+        top: 320px;
+        right: 560px;
+        font-size: 20px;
+        transform: skew(-10deg, 14deg);
+        width: 300px;
+    }
+
+    #Extraskew {
+     /*    position: relative;
+        left: 5%;
+        bottom: 104px;
+        transform: skew(11deg, -9deg);
+        width: 500px; */
+        display: none;
+    }
+
+    #mainimg {
+        height:150px;
+        width: 200px;
+        position: relative;
+        left: 33%;
+        bottom: 160px;
+    }
+
+    #playimg {
+        height: 60px;
+        width: 60px;
+        position: relative;
+        left: 14%;
+        bottom: 200px;
+    }
+   .displayimages{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   }
+    .imagebox {
+        display: flex;
+        margin-left: 40px;
+    }
+
+    #skewsecond {
+        position: relative;
+        right: 50px;
+        transform: skew(10deg, -5deg);
+    }
+
+    #skewsecondPara {
+        width: 300px;
+        font-size: 15px;
+        text-align: center;
+        transform: skew(-10deg, 5deg);
+        position: relative;
+        right: 25%;
+        top: 6px;
+    }
+
+    #skewsecondparabtn {
+        width: 330px;
+        font-size: 20px;
+        position: relative;
+        left: -5%;
+        top: 5%;
+    }
+
+    #rightskew {
+        height: 20px;
+        width: 200px;
+        position: relative;
+        transform: skew(10deg, -5deg);
+        left: 85%;
+        top: -.2%;
+    }
+
+    #leftskewtop {
+        display: none;
+    }
+
+    #leftskewbetween {
+        height: 20px;
+        position: relative;
+        right: 20%;
+        top: 3.5%;
+        transform: skew(-35deg, -6deg);
+    }
+
+    #leftskewbottom {
+        height: 20px;
+        position: relative;
+        right: 35%;
+    }
+
+    #rightskewdown {
+        height: 20px;
+        position: relative;
+        bottom: 2%;
+    }
+
+    #leftskewdowntop {
+        height: 20px;
+        position: relative;
+        right: 22%;
+        top: 2.5%;
+    }
+
+    #leftskewdownbottom {
+        height: 20px;
+        position: relative;
+        right: 28%;
+        top: 2.6%;
+    }
+
+    #growthcharts {
+        width: 475px;
+        font-size: 40px;
+        position: relative;
+        left: 15%;
+        top: 10%;
+    }
+
+    #growthchartimg {
+        height: 350px;
+        width: 300px;
+    }
+
+    #growthcharts p {
+        width: 400px;
+        font-size: 25px;
+        position: relative;
+        right: -10%;
+    }
+
+    #growthchartsbtn {
+        width: 330px;
+        font-size: 20px;
+        position: relative;
+        right: -1%;
+    }
+
+    #skewthird {
+        position: relative;
+        right: 25px;
+        transform: skew(4deg, -7deg);
+    }
+
+    #rightskewAgain {
+        height: 20px;
+        position: relative;
+        top: 29%;
+    }
+
+    #leftskewtopAgain {
+        display: none;
+    }
+
+    #leftskewbetweenAgain {
+        height: 20px;
+        position: relative;
+        top: 35%;
+        right: 14%;
+    }
+
+    #leftskewbottomAgain {
+        height: 20px;
+        position: relative;
+        left: -12%;
+        bottom: 8%;
+    }
+
+    #skewthird h2 {
+        position: relative;
+        font-size: 35px;
+        left: 24%;
+        top: 1%;
+        transform: skew(-1deg, 6.4deg)
+    }
+
+    .growthchartimg {
+        border-radius: 30px;
+        height: 220px;
+        width: 350px;
+        transform: skew(-4deg, 6.4deg);
+    }
+
+    #growthchartimgtop {
+        position: relative;
+        left: 22%;
+    }
+
+    #growthchartimgbottom {
+        position: relative;
+        left: 20%;
+    }
+
+    #rightskewdownAgain {
+        height: 20px;
+        position: relative;
+        top: 28%;
+    }
+ #headinglastpart{
+    font-size: 26px;
+    width: 370px;
+    position: relative;
+    left: 11%;
+    bottom: 140px;
+ }
+    #leftskewdowntopAgain {
+        height: 20px;
+        position: relative;
+        top: 33.5%;
+        right: 16%;
+    }
+
+    #leftskewdownbottomAgain {
+        height: 20px;
+        position: relative;
+        top: 33.9%;
+        right: 23%;
+    }
+
+    #headinglastpart {
+        font-size: 24px;
+        width: 370px;
+        position: relative;
+        left: 20%;
+    }
+
+    .imagesize {
+        height: 250px;
+        width: 250px;
+    }
+
+    #imagealign {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #imagealigndown {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: -136px;
+        left: 50px;
+    }
+
+    #image9 {
+        position: relative;
+        left: 8%;
+        bottom: 120px;
+    }
+
+    #image10 {
+        position: relative;
+        right: 221px;
+        top: -127px;
+    }
+
+    #image11 {
+        position: relative;
+        left: 7%;
+        top: 115px;
+    }
+
+    #image12 {
+        position: relative;
+        right: -8%;
+        top: -127px;
+    }
+
+    #lastpartpara {
+        font-size: 20px;
+        width: 350px;
+        position: relative;
+        top: -5%;
+        left: 200px;
+    }
+
+    #lastpartparabtn {
+        width: 330px;
+        font-size: 20px;
+        position: relative;
+        right: 5%;
+    }
+
+    #footerpart {
+        width: 900px;
+        font-size: 12px;
+    }
+
+    #footerheading {
+        width: 400px;
+        position: relative;
+        font-size: 25px;
+        left: -21%;
+        margin-top: 10px;
+    }
+
+    #footerpartbtn {
+        font-size: 18px;
+        width: 230px;
+        margin-right: 30px;
+        position: relative;
+        right: 10%;
+    }
+
+    #logopart {
+        position: relative;
+        top: 6%;
+        left: 200px;
+    }
+
+    #aboutus {
+        position: relative;
+        top: 10%;
+        left: -32%;
+    }
+
+    #Help {
+        position: relative;
+        left: 50%;
+        bottom: 85px;
+    }
+
+    #Followus {
+        position: relative;
+        left: -32%;
+        bottom: 5%;
+    }
+    .bgimage{
+        height: 25px;
+        width: 25px;
+        border-radius: 3px;
+    }
+     #instagramimg{
+        position: relative;
+        left: 104%;
+        top: 3%;
+     }
+     #Googleimg{
+        position: relative;
+        right: 45%;
+        top: 3%;
+     }
+     #wikkipimg{
+        position: relative;
+        right: 55%;
+        top: 10%;
+     }
+     #shopifyimg{
+        position: relative;
+        top: 20%;
+        right: 65%;
+     }
+     #adwordsimg{
+        position: relative;
+        left: 65%;
+        top: 20%;
+     }
+}
+@media (900px<=width<1050px) {
+
+    #skew {
+        position: relative;
+        right: 230px;
+        bottom: 125px;
+        height: 600px;
+        width: 150vw;
+        transform: skew(10deg, -14deg);
+        background-color: #07112D;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    #navbar {
+        transform: skew(-10deg,14deg);
+       position: relative;
+       top: 60px;
+       left: 250px;
+    }
+
+    #BreakingNews {
+        width: max-content;
+        padding: 5px;
+        position: fixed;
+        top: 175px;
+        left: 37%;
+        transform: skew(-10deg, 14deg);
+    }
+
+    #bigpara {
+        font-size: 20px;
+        width: 300px;
+        transform: skew(-10deg, 14deg);
+        position: relative;
+        left: -70%;
+        top: 230px;
+    }
+
+    #togglebtn {
+        /*  Need to be change later */
+        display: none;
+    }
+
+    #smallpara {
+        position: relative;
+        top: 340px;
+        right: 520px;
+        font-size: 20px;
+        transform: skew(-10deg, 14deg);
+        width: 300px;
+    }
+
+    #Extraskew {
+       display: none;
+    }
+
+    #mainimg {
+        height: 200px;
+        width: 350px;
+        position: relative;
+        left: 27%;
+        bottom: 202px;
+    }
+
+    #playimg {
+        height: 80px;
+        width: 80px;
+        position: relative;
+        left: 1%;
+        bottom: 270px;
+    }
+   .displayimages{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   }
+    .imagebox {
+        display: flex;
+        margin-left: 40px;
+    }
+
+    #skewsecond {
+        position: relative;
+        right: 50px;
+        transform: skew(10deg, -5deg);
+    }
+
+    #skewsecondPara {
+        width: 300px;
+        font-size: 15px;
+        text-align: center;
+        transform: skew(-10deg, 5deg);
+        position: relative;
+        right: 25%;
+        top: 6px;
+    }
+
+    #skewsecondparabtn {
+        width: 330px;
+        font-size: 20px;
+        position: relative;
+        left: -5%;
+        top: 5%;
+    }
+
+    #rightskew {
+        height: 20px;
+        width: 200px;
+        position: relative;
+        transform: skew(10deg, -5deg);
+        left: 85%;
+        top: -.2%;
+    }
+
+    #leftskewtop {
+        display: none;
+    }
+
+    #leftskewbetween {
+        height: 20px;
+        position: relative;
+        right: 14%;
+        top: 7%;
+        transform: skew(-35deg, -6deg);
+    }
+
+    #leftskewbottom {
+        height: 20px;
+        position: relative;
+        right: 40%;
+    }
+
+    #rightskewdown {
+        height: 20px;
+        position: relative;
+        bottom: 3%;
+    }
+
+    #leftskewdowntop {
+        height: 20px;
+        position: relative;
+        right: 14%;
+        top: 5%;
+    }
+
+    #leftskewdownbottom {
+        height: 20px;
+        position: relative;
+        right: 21%;
+        top: 5.6%;
+    }
+
+    #growthcharts {
+        width: 475px;
+        font-size: 40px;
+        position: relative;
+        left: 15%;
+        top: 10%;
+    }
+
+    #growthchartimg {
+        height: 350px;
+        width: 300px;
+    }
+
+    #growthcharts p {
+        width: 400px;
+        font-size: 25px;
+        position: relative;
+        right: -10%;
+    }
+
+    #growthchartsbtn {
+        width: 330px;
+        font-size: 20px;
+        position: relative;
+        right: -1%;
+    }
+
+    #skewthird {
+        position: relative;
+        right: 25px;
+        transform: skew(4deg, -7deg);
+    }
+
+    #rightskewAgain {
+        height: 20px;
+        position: relative;
+        top: 29%;
+    }
+
+    #leftskewtopAgain {
+        display: none;
+    }
+
+    #leftskewbetweenAgain {
+        height: 20px;
+        position: relative;
+        top: 41%;
+        right: 14%;
+    }
+
+    #leftskewbottomAgain {
+        height: 20px;
+        position: relative;
+        left: -12%;
+        bottom: 7%;
+    }
+
+    #skewthird h2 {
+        position: relative;
+        font-size: 35px;
+        left: 24%;
+        top: 1%;
+        transform: skew(-1deg, 6.4deg)
+    }
+
+    .growthchartimg {
+        border-radius: 30px;
+        height: 220px;
+        width: 350px;
+        transform: skew(-4deg, 6.4deg);
+    }
+
+    #growthchartimgtop {
+        position: relative;
+        left: 22%;
+    }
+
+    #growthchartimgbottom {
+        position: relative;
+        left: 20%;
+    }
+
+    #rightskewdownAgain {
+        height: 20px;
+        position: relative;
+        top: 26%;
+    }
+ #headinglastpart{
+    font-size: 26px;
+    width: 370px;
+    position: relative;
+    left: 11%;
+    bottom: 140px;
+ }
+    #leftskewdowntopAgain {
+        height: 20px;
+        position: relative;
+        top: 38.5%;
+        right: 16%;
+    }
+
+    #leftskewdownbottomAgain {
+        height: 20px;
+        position: relative;
+        top: 39%;
+        right: 23%;
+    }
+
+    #headinglastpart {
+        font-size: 24px;
+        width: 370px;
+        position: relative;
+        left: 27%;
+    }
+
+    .imagesize {
+        height: 250px;
+        width: 250px;
+    }
+
+    #imagealign {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #imagealigndown {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: -136px;
+        left: 135px;
+    }
+
+    #image9 {
+        position: relative;
+        left: 15%;
+        bottom: 120px;
+    }
+
+    #image10 {
+        position: relative;
+        right:125px;
+        top: -127px;
+    }
+
+    #image11 {
+        position: relative;
+        left: 13%;
+        top: 115px;
+    }
+
+    #image12 {
+        position: relative;
+        right: -16%;
+        top: -127px;
+    }
+
+    #lastpartpara {
+        font-size: 20px;
+        width: 350px;
+        position: relative;
+        top: -5%;
+        left: 250px;
+    }
+
+    #lastpartparabtn {
+        width: 330px;
+        font-size: 20px;
+        position: relative;
+        right: 5%;
+    }
+
+    #footerpart {
+        width: 1200px;
+        height: 1500px;
+        font-size: 12px;
+    }
+
+    #footerheading {
+        width: 450px;
+        position: relative;
+        font-size: 30px;
+        left: -10%;
+        margin-top: 10px;
+    }
+
+    #footerpartbtn {
+        font-size: 28px;
+        width: 382px;
+        margin-right: 30px;
+        position: relative;
+        right: 10%;
+    
+    }
+
+    #logopart {
+        position: relative;
+        top: 6%;
+        left: 200px;
+        font-size: 27px;
+    }
+    #logopart h4{
+        font-size: 40px;
+    }
+    #aboutus {
+        position: relative;
+        top: 10%;
+        left: -32%;
+        font-size: 22px;
+    }
+    #aboutus h4{
+        font-size: 40px;
+    }
+    #Help {
+        position: relative;
+        left: 50%;
+        bottom: 165px;
+        font-size: 22px;
+    }
+    #Help h4{
+        font-size: 40px;
+    }
+    #Followus {
+        position: relative;
+        left: -32%;
+        bottom: 5%;
+    }
+    .bgimage{
+        height: 25px;
+        width: 25px;
+        border-radius: 3px;
+    }
+     #instagramimg{
+        position: relative;
+        left: 104%;
+        top: 3%;
+     }
+     #Googleimg{
+        position: relative;
+        right: 45%;
+        top: 3%;
+     }
+     #wikkipimg{
+        position: relative;
+        right: 55%;
+        top: 10%;
+     }
+     #shopifyimg{
+        position: relative;
+        top: 20%;
+        right: 55%;
+     }
+     #adwordsimg{
+        position: relative;
+        left: 75%;
+        top: 20%;
+     }
+}
+@media (1050px<=width){
+    #togglebtn{
+        position: relative;
+        left:50%;
+        bottom: 820px;
+    }
+#navbar{
+    left: 935px;
+}
+#BreakingNews{
+    position: relative;
+    left: 23%;
+    top: 150px;
+}
+#bigpara{
+    position: relative;
+    top: 190px;
+    right: 35%;
+}
+#smallpara{
+    position: relative;
+    top: 381px;
+    right: 831px;
+}
+#Extraskew{
+    display: none;
+}
+#mainimg{
+    left: 25%;
+}
+#playimg{
+    left: 2%;
+}
+.displayimages{
+    height: 130px;
+    width: 130px;
+}
+#skewsecondPara{
+    font-size: 20px;
+}
+#rightskew{
+    position: relative;
+    top: 1.5%;
+}
+#leftskewtop{
+    position: relative;
+    top: 12.5%;
+}
+#rightskewdown{
+    bottom: 5.5%;
+}
+#leftskewdowntop{
+    position: relative;
+    top: 4.5%;
+}
+#leftskewdownbottom{
+    position: relative;
+    top: 5.5%;
+    right: 15%;
+}
+#growthcahrts p{
+    position: relative;
+    right: 61%;
+}
+#leftskewtopAgain{
+    position: relative;
+    top: 41%;
+}
+#rightskewdownAgain{
+    position: relative;
+    top: 26%;
+}
+#leftskewdowntopAgain{
+    position: relative;
+    top: 36%;
+}
+#leftskewdownbottomAgain{
+    position:relative;
+    top: 36.5%;
+}
+#logopart{
+    position: relative;
+    top: 11%;
+    left: 76px;
+}
+#aboutus{
+    position: relative;
+    left: 5%;
+    bottom: 1%;
+}
+#Help{
+    position: relative;
+    bottom: 19%;
+    left: 55%;
+}
+#Followus{
+    position: relative;
+    left: 95%;
+    bottom: 37%;
+}
+}
